@@ -32,6 +32,10 @@ public class App {
 		we.sendKeys("selenium3");
 		driver.findElement(By.name("btnG")).click();
 
+		WebElement results = driver.findElement(By.id("resultStats"));
+
+		System.out.println(results.getText());
+
 		driver.close();
 
 	}
