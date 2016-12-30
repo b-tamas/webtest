@@ -1,0 +1,71 @@
+1. functionality test
+	internal links
+	linking-in from external pages
+	test links sent in emails
+		use a specific email account for testing. check incoming mails with smtp client
+	orphan pages?
+	
+	testing forms:
+		all validation of each field
+		field default values
+		
+			
+		// predefined steps, playbooks, own java datatype
+		
+		// predefined invalid input types
+		
+		
+	cookie testing
+		enabling cookies, disabling them
+		encrypted on hdd?
+		
+		
+	html/css validation
+	site is crawable for search engines?
+	
+	
+	DB data integrity
+		create, modify, delete form, check integrity in each step
+		
+		
+	DB load test
+		
+	
+	
+2. Usability test
+
+
+
+3. Interface testing
+	DB interface
+		java sql client
+	APP server interface
+		remote control an app, OCR, clicks, etc
+	WEB server interface
+		selenium
+		
+
+4. Compatibility testing:
+	Browser compatiblity
+		good online tools for small fee.
+	OS compatibility
+		good online tools for small fee.
+	Mobile browsing
+		???
+	printing options
+	
+5. Performance testing
+	Load test (normal activity)
+		multithread simple browse-flow
+	Stress test (beyond regular limits) 
+		Input fields, login, signup areas
+		
+6. Security testing:
+	Internal URL to the browser, should not be visible
+	Logged in user changes URL (e.g id=123 to id=1)
+	invalid inputs
+	web files are not visible
+	captcha
+	ssl
+	all security breach attempts logged
+		check apache.log, sql.log, syslog, etc for issues
