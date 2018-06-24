@@ -1,1 +1,6 @@
 /.project
+*.class
+*.log
+*.jar
+*.war
+.settings/
